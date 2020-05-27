@@ -8,7 +8,7 @@ Try it on your phone: [Download](https://1drv.ms/u/s!Ambq7X4wLes3piEjWDoByxbk4qD
 ![game1](https://user-images.githubusercontent.com/62396712/82962217-e81ce880-9fbf-11ea-88b6-c10aec616ca9.png)
 ![game2](https://user-images.githubusercontent.com/62396712/82962225-e94e1580-9fbf-11ea-8cd5-29f5c9bbd07e.jpg)
 
-**Walkthrough on source code:**
+**Walkthrough:**
 
 Loading Script allow us to load Remote config for the scaling formulas.
 
