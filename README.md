@@ -1,28 +1,62 @@
 # IdleGame CirclesVsBlock
-prototype of an Idle Game
 
-Try it on your phone: [Download](https://1drv.ms/u/s!Ambq7X4wLes3piEjWDoByxbk4qDD?e=Te3uII)
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/628d98c6-0224-48a2-b3e3-321b5f48e681" alt="InspectMe Logo" width="100"></td>
+    <td>
+      🛠️ Boost your Unity workflows with <a href="https://divinitycodes.de/">InspectMe</a>! Our tool simplifies debugging with an intuitive tree view. Check it out! 👉 
+      <a href="https://assetstore.unity.com/packages/tools/utilities/inspectme-lite-advanced-debugging-code-clarity-283366">InspectMe Lite</a> - 
+      <a href="https://assetstore.unity.com/packages/tools/utilities/inspectme-pro-advanced-debugging-code-clarity-256329">InspectMe Pro</a>
+    </td>
+  </tr>
+</table>
 
-**ScreenShots:**
+---
 
-![game1](https://user-images.githubusercontent.com/62396712/82962217-e81ce880-9fbf-11ea-88b6-c10aec616ca9.png)
-![game2](https://user-images.githubusercontent.com/62396712/82962225-e94e1580-9fbf-11ea-8cd5-29f5c9bbd07e.jpg)
+Welcome to the IdleGame CirclesVsBlock prototype, a mobile game where players interact with dynamically generated circles and blocks in a continuously engaging idle gameplay environment.
 
-**Walkthrough:**
+## Screenshots
 
-Loading Script allow us to load Remote config for the scaling formulas.
+Explore the visual style and UI of the game through these screenshots:
 
-![Loading](https://user-images.githubusercontent.com/62396712/82962322-2f0ade00-9fc0-11ea-9215-ccb8b6820dee.PNG)
+![Game Screenshot 1](https://user-images.githubusercontent.com/62396712/82962217-e81ce880-9fbf-11ea-88b6-c10aec616ca9.png)
+![Game Screenshot 2](https://user-images.githubusercontent.com/62396712/82962225-e94e1580-9fbf-11ea-8cd5-29f5c9bbd07e.jpg)
 
+## How It Works
 
-the GameController script it's the entry point to the game and contain the core loop.  
-Also it's has a bunch of settings to initialize the game and create adjustments to the game elements such circles shader controller and some behaviours.
+### Loading Script
 
-![GameController1](https://user-images.githubusercontent.com/62396712/82962316-2914fd00-9fc0-11ea-8c22-208f050205db.PNG)
-![GameController2](https://user-images.githubusercontent.com/62396712/82962319-2adec080-9fc0-11ea-888a-8fed05a844c9.PNG)
+The game begins with the Loading script, which is responsible for loading remote configuration settings to dynamically scale game formulas based on player progress.
 
-**Shader Graph Examples:**
+![Loading Config](https://user-images.githubusercontent.com/62396712/82962322-2f0ade00-9fc0-11ea-9215-ccb8b6820dee.PNG)
 
+### GameController
 
-![Shader1](https://user-images.githubusercontent.com/62396712/82962589-eacc0d80-9fc0-11ea-8d1b-6b97903c3770.PNG)
-![shader2](https://user-images.githubusercontent.com/62396712/82962592-ebfd3a80-9fc0-11ea-8e84-147aaa4f09e6.PNG)
+The `GameController` script serves as the central hub of the game, initiating the core gameplay loop. It contains a variety of settings that allow for customization of game elements, from visual effects handled by the shader controller to game mechanics.
+
+![GameController Initial Setup](https://user-images.githubusercontent.com/62396712/82962316-2914fd00-9fc0-11ea-8c22-208f050205db.PNG)
+![GameController Adjustments](https://user-images.githubusercontent.com/62396712/82962319-2adec080-9fc0-11ea-888a-8fed05a844c9.PNG)
+
+### Shader Graph Examples
+
+The game features custom shaders designed to enhance visual appeal and feedback. Below are examples of how Shader Graph is utilized to create dynamic visuals within the game:
+
+![Shader Example 1](https://user-images.githubusercontent.com/62396712/82962589-eacc0d80-9fc0-11ea-8d1b-6b97903c3770.PNG)
+![Shader Example 2](https://user-images.githubusercontent.com/62396712/82962592-ebfd3a80-9fc0-11ea-8e84-147aaa4f09e6.PNG)
+
+## Conclusion
+
+IdleGame CirclesVsBlock is a prototype that combines engaging idle gameplay with intricate graphical programming to create a continuously interesting player experience. Whether you're interested in the technical side of game development or just looking for a fun game to play, this prototype offers insights and entertainment. Dive in, explore the code, and enjoy the interaction of circles and blocks!
+
+---
+
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/628d98c6-0224-48a2-b3e3-321b5f48e681" alt="InspectMe Logo" width="100"></td>
+    <td>
+      🛠️ Boost your Unity workflows with <a href="https://divinitycodes.de/">InspectMe</a>! Our tool simplifies debugging with an intuitive tree view. Check it out! 👉 
+      <a href="https://assetstore.unity.com/packages/tools/utilities/inspectme-lite-advanced-debugging-code-clarity-283366">InspectMe Lite</a> - 
+      <a href="https://assetstore.unity.com/packages/tools/utilities/inspectme-pro-advanced-debugging-code-clarity-256329">InspectMe Pro</a>
+    </td>
+  </tr>
+</table>
